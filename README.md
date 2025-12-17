@@ -13,6 +13,9 @@ Cybersecurity of Cyber-Physical Systems. Open community website. In the spirit o
 <p>
 <ul>
 <li> О сообществе </li>
+<li> CPSWiki </li>
+<li> Прожекты </li>
+<li> Полезные зелья и снадобъя </li>
 <li> Библиотека </li>
 </ul>
 </p> 
