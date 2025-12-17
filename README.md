@@ -5,11 +5,13 @@
 </p>  
 Cybersecurity of Cyber-Physical Systems. Open community website. In the spirit of magic, metaphors, and characters. The Keepers of the Unseen University of Cybernetics — here they study the dangerous magic of cybersecurity that affects the real physical world. Motto: "Conare intelligere quomodo operatur." ("Try to understand how it works" ;)
 <p>
-Миссия сообщества: Сделать окружавющий МирЪ несколько лучше засчет накоплепние и распростанение знаний и лучших практик в области кибербезопасности киберфизических систем. 
+Миссия сообщества: Сделать окружавющий МирЪ несколько лучше засчет накопления и распростанения знаний и лучших практик в области кибербезопасности киберфизических систем. 
 </p> 
 <p>
 Цели и задачи:
 </p> 
 <p>
+<ol>
 <li> О сообществе </li>
+</ol>
 </p> 
