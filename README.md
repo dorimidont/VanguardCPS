@@ -11,7 +11,7 @@ Cybersecurity of Cyber-Physical Systems. Open community website. In the spirit o
 Цели и задачи:
 </p> 
 <p>
-<ol>
+<ul>
 <li> О сообществе </li>
-</ol>
+</ul>
 </p> 
