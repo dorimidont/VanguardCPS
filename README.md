@@ -13,5 +13,6 @@ Cybersecurity of Cyber-Physical Systems. Open community website. In the spirit o
 <p>
 <ul>
 <li> О сообществе </li>
+<li> Библиотека </li>
 </ul>
 </p> 
