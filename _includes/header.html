@@ -1,0 +1,49 @@
+<!-- Верхняя панель для второстепенных ссылок -->
+  <link rel="stylesheet" href="assets/styles/header.css">
+<div class="top-bar">
+    <div class="top-bar-container">
+        <ul class="top-bar-links">
+            <li><a href="/careers">𒆏 Карьера</a></li>
+            <li><a href="/news">𒆏 Новости</a></li>
+            <li><a href="/contact">𒆏 Контакты</a></li>
+            <li><a href="/login" class="login-link">𒆏 Войти</a></li>
+        </ul>
+    </div>
+</div>
+
+<header class="site-header">
+    <!-- ... тот же контент, <div class="header-container">
+        <!-- Логотип -->
+        <div class="header-logo">
+            <a href="{{ '/' | relative_url }}">
+                <img src="{{ '/assets/images/logo.png' | relative_url }}"
+                     alt="Логотип организации"
+                     height="40">
+                <span class="site-title">Vanguard CPS - открытое сообщество специолистов по кибербезопасности киберфизических систем. Здесь изучают опасную магию кибербезопасности, влияющую на физический мир. </span>
+            </a>
+        </div>
+
+        <!-- Основная навигация -->
+        <nav class="main-nav">
+            <ul class="nav-menu">
+                {% for item in site.navigation %}
+                <li class="nav-item {% if page.url == item.url %}active{% endif %}">
+                    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+
+        <!-- Поиск и дополнительные действия -->
+        <div class="header-actions">
+            <button class="search-btn" aria-label="Поиск">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <path d="M12.5 11H11.71L11.43 10.73C12.41 9.59 13 8.11 13 6.5C13 2.91 10.09 0 6.5 0C2.91 0 0 2.91 0 6.5C0 10.09 2.91 13 6.5 13C8.11 13 9.59 12.41 10.73 11.43L11 11.71V12.5L16 17.49L17.49 16L12.5 11ZM6.5 11C4.01 11 2 8.99 2 6.5C2 4.01 4.01 2 6.5 2C8.99 2 11 4.01 11 6.5C11 8.99 8.99 11 6.5 11Z" fill="currentColor"/>
+                </svg>
+            </button>
+            <button class="menu-toggle" aria-label="Меню" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+
+</header>

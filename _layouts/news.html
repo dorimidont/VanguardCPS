@@ -1,0 +1,28 @@
+liquid
+---
+layout: default
+---
+
+<div class="content-container">
+    <h1 class="page-title">{{ page.title }}</h1>
+
+    {% if page.intro %}
+    <div class="content-intro">
+        {{ page.intro | markdownify }}
+    </div>
+    {% endif %}
+
+    <div class="card-grid">
+        {% for post in site.posts %}
+        <article class="card">
+            <h2 class="card-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+            <time class="card-date" datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%d.%m.%Y" }}
+            </time>
+            <p class="card-summary">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        </article>
+        {% endfor %}
+    </div>
+</div>

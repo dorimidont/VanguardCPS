@@ -1,0 +1,45 @@
+
+ exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - scss
+
+#title: "Организация"
+description: "Решение проблем для более безопасного мира"
+baseurl: ""
+url: "https://ваш-сайт.ru"
+author: "Администрация"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /news/:year/:month/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Автор"
+      image: "/assets/images/default-news.jpg"
+
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
