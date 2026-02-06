@@ -1,0 +1,18 @@
+yaml
+- title: "Анализатор вредоносного ПО"
+  description: "Инструмент для статического и динамического анализа"
+  status: "Активен"
+  technologies: ["Python", "YARA", "Volatility"]
+  url: "https://github.com/cybercommunity/malware-analyzer"
+
+- title: "Threat Intelligence Platform"
+  description: "Сбор и анализ данных об угрозах"
+  status: "В разработке"
+  technologies: ["Python", "ELK Stack", "STIX/TAXII"]
+  url: "https://github.com/cybercommunity/threat-intel"
+
+- title: "Penetration Testing Framework"
+  description: "Фреймворк для автоматизации тестирования безопасности"
+  status: "Активен"
+  technologies: ["Go", "REST API"]
+  url: "https://github.com/cybercommunity/pt-framework"

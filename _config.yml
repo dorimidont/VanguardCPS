@@ -1,0 +1,26 @@
+yaml
+title: "Сообщество кибербезопасности"
+description: "Открытое сообщество исследователей и специалистов"
+baseurl: ""
+url: "https://cybersecurity.ru"
+
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Сообщество"
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:year/:month/:title/
